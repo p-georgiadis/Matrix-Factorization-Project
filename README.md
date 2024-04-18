@@ -47,7 +47,12 @@ This section guides you on how to access and use the materials available in this
 
 ### Prerequisites
 
-There are no separate installation requirements for running the Python code as all necessary libraries and dependencies are included and can be managed directly within the Jupyter notebooks provided in the `notebooks/` directory.
+Before running the Jupyter notebooks, ensure you have Python installed on your system. To install all necessary dependencies for this project:
+
+**Install Dependencies**: Run the following command in your terminal to install the required Python packages from the `requirements.txt` file located in the root of the `News-Classification` directory:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Data Files
 
