@@ -43,10 +43,29 @@ Discussion on why NMF may not have performed as well as other baseline or simila
 
 ## Getting Started
 
-To run the notebooks, you will need to:
-1. Clone this repository.
-2. Install required Python packages: `pip install -r requirements.txt` (ensure you create a Python environment for this project).
-3. Download the necessary datasets from Kaggle and place them in the `data/` directory.
+This section guides you on how to access and use the materials available in this repository for the BBC News Classification and NMF Movie Ratings projects.
+
+### Prerequisites
+
+There are no separate installation requirements for running the Python code as all necessary libraries and dependencies are included and can be managed directly within the Jupyter notebooks provided in the `notebooks/` directory.
+
+### Data Files
+
+The datasets needed for the analyses are already included in the repository, located within the `data/` directory:
+- News dataset: `data/news/*.csv`
+- Movie ratings dataset: `data/movies/*.csv`
+
+### Running the Notebooks
+
+To work with the Jupyter notebooks:
+1. Ensure you have Jupyter installed. If not, you can install it via Anaconda or with pip
+2. Navigate to the `notebooks/` directory
+3. Launch Jupyter Notebook
+4. Open any `.ipynb` file to view, run, or modify the analysis.
+
+### Viewing the Reports
+
+For a summarized view of the findings and analyses, refer to any reports or summarized notebooks located in the `reports/` directory.
 
 ## Contribute
 
