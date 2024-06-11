@@ -92,6 +92,10 @@ Feel free to fork this repository or submit pull requests. If you find an error 
 
 This project is open-sourced under the MIT license.
 
+## Authorship
+
+This project was developed by Panagiotis Georgiadis, a Master's student in Computer Science at the University of Colorado Boulder. All work, including the exploratory data analysis, model building, training, and evaluation, was conducted by Panagiotis Georgiadis. This project is part of the coursework for the "Unsupervised Algorithms in Machine Learning" course, instructed by Geena Kim, Adjunct Professor.
+
 ## Acknowledgements
 
 - Bijoy Bose. (2019). BBC News Classification. Kaggle. https://kaggle.com/competitions/learn-ai-bbc
