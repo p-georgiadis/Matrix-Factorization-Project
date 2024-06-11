@@ -17,7 +17,7 @@ The project is divided into two main parts:
   - `02_Matrix_Factorization_Model.ipynb`: Notebook detailing the matrix factorization model building and predictions.
   - `03_Supervised_vs_Unsupervised.ipynb`: Comparison of supervised and unsupervised learning models.
   - `04_NMF_Movie_Ratings.ipynb`: Analysis of the limitations of sklearn's NMF using movie ratings data.
-- `reports/`: Optional directory for any generated report PDFs or Markdown files summarizing the findings.
+- `reports/`: Directory for any generated report PDFs or Markdown files summarizing the findings.
 
 ## Part 1: News Classification
 
