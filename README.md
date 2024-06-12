@@ -6,8 +6,11 @@ This repository contains all the necessary files and notebooks for the Kaggle co
 
 The project is divided into two main parts:
 
-1. **BBC News Classification Using Matrix Factorization** - Using matrix factorization techniques to categorize news articles into predefined categories and comparing the results with supervised learning methods.
-2. **Evaluation of sklearn’s Non-negative Matrix Factorization (NMF) on Movie Ratings** - Analyzing the performance and limitations of sklearn's NMF library on a movie ratings dataset.
+1. **BBC News Classification Using Matrix Factorization**
+     - Using unsupervised matrix factorization techniques to categorize news articles into predefined categories.
+     - Using supervised matrix factorization techniques to categorize news articles into predefined categories and comparing the results with the unsupervised learning methods.
+
+3. **Evaluation of sklearn’s Non-negative Matrix Factorization (NMF) on Movie Ratings** - Analyzing the performance and limitations of sklearn's NMF library on a movie ratings dataset.
 
 ## Part 1: BBC News Classification
 
@@ -47,11 +50,13 @@ Discussion on why NMF may not have performed as well as other baseline or simila
 - `README.md`: This file, describing the project and its structure.
 - `data/`: Directory containing datasets used in the analysis.
 - `notebooks/`: Jupyter notebooks for each part of the analysis.
-  - `01_Exploratory_Data_Analysis.ipynb`: Notebook containing the EDA for the BBC news dataset.
-  - `02_Matrix_Factorization_Model.ipynb`: Notebook detailing the matrix factorization model building and predictions.
-  - `03_Supervised_vs_Unsupervised.ipynb`: Comparison of supervised and unsupervised learning models.
-  - `04_NMF_Movie_Ratings.ipynb`: Analysis of the limitations of sklearn's NMF using movie ratings data.
-- `reports/`: Directory for any generated report PDFs or Markdown files summarizing the findings.
+  - `01_EDA.ipynb`: Notebook containing the EDA for the BBC news dataset.
+  - `01_Unsupervised_Matrix_Factorization.ipynb`: Notebook detailing the unsupervised matrix factorization model building and predictions.
+  - `01_Supervised_Matrix_Factorization.ipynb`: Notebook detailing the supervised matrix factorization model building and predictions.
+  - `02_Movie_Evaluation_of_sklearn_NMF.ipynb`: Analysis of the limitations of sklearn's NMF using movie ratings data.
+- `reports/`: Directory for Markdown files summarizing the findings.
+  - `01_Discussion.md`: Comparison of Supervised and Unsupervised Approaches
+  - `02_Discussion.md`: Limitations of sklearn's NMF
 
 ## Getting Started
 
