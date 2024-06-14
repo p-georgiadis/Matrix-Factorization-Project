@@ -66,7 +66,7 @@ This section guides you on how to access and use the materials available in this
 
 Before running the Jupyter notebooks, ensure you have Python installed on your system. To install all necessary dependencies for this project:
 
-**Install Dependencies**: Run the following command in your terminal to install the required Python packages from the `requirements.txt` file located in the root of the `News-Classification` directory:
+**Install Dependencies**: Run the following command in your terminal to install the required Python packages from the `requirements.txt` file located in the root directory:
     ```bash
     pip install -r requirements.txt
     ```
